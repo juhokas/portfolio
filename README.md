@@ -1,2 +1,2 @@
 # portfolio
-Juho Kastemaa Digital Portfolio
+Juho Kastemaa's Digital Portfolio
