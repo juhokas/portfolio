@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+	<title>Juhon Kahvila</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Linkitetään tähän CSS tyylitiedosto -->
+	<link rel="stylesheet" href="tyyli.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+        /* Lisätään kuvagallerian tyyli */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .grid-kuva img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+		
+    </style>
+</head>
+
+<body>
+	<header id="etusivu">
+		<!-- Tästä alkaa navigaatio -->
+		<nav>
+			<a href="index.html">Juhon Kahvila</a>
+			<a href="kahvit.html">Kahvimme</a>
+			<a href="galleria.html" id="valittu">Galleria</a>
+			<a href="yhteys.html">Ota yhteyttä</a>
+		</nav>
+
+		<!-- Tänne vaihdettu nav paikka ja uusi id = slogan -->
+		<h1 id="slogan">Galleria</h1>
+
+		<!-- Tänne tulee toimintakehote ja linkki ota yhteyttä sivulle Comment with SHIFT ALT A -->
+		<a href="yhteys.html" id="toimintakehote">Poikkea meille!</a>
+	</header>
+
+	<section class="galleria-container">
+        <!-- Kuvagalleria -->
+        <div class="grid-kuva">
+            <figure>
+                <img id="vuorikuva" src="kuvat/spice.jpg"
+                    alt="vuorikuva jossa pilviä ja saattaa olla myös kahvipapuja hyvällä tuurilla">
+                <figcaption>Kahvipavut: maailman pienimmät mutta tehokkaimmat superherrat – he jaksavat piristää päiväsi yhdellä ainoalla paahtoasteella!</figcaption>
+            </figure>
+        </div>
+
+        <!-- Voit lisätä muita kuvia samalla kaavalla -->
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/spoon.jpg" alt="Kuva 2">
+                <figcaption>Kofeiini: se taikajuoma, joka saa kahvipavut tanssimaan aamukupissasi – eikä sinun tarvitse edes pyytää lupaa!</figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/sydan.jpg" alt="Kuva 3">
+                <figcaption>Miksi kahvipapu ei koskaan ollut huono stand-up-koomikko? Koska se aina pitää yleisön hereillä!</figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/hiekkaranta_pieni.jpg" alt="Kuva 4">
+                <figcaption>Kofeiini – kuin kahvin oma superteho! Paahtoasteet kohoavat, kun tarvitset sankareita aamuusi.</figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/beans.jpg" alt="Kuva 5">
+                <figcaption>Mitä kahvipapu sanoi parhaalle ystävälleen? 'Olet kofeiinini – ilman sinua en olisi koskaan näin hereillä!</figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/redbeans.jpg" alt="Kuva 6">
+                <figcaption>Kahvipavut ovat kuin salainen agenttiarmeija, ja kofeiini on niiden supervoima. Yhdessä ne muodostavat ylivertaisen aamuarmeijan!</figcaption>
+            </figure>
+        </div>
+    </section>
+
+	<br>
+	<hr>
+	<br>
+	<footer>
+		<div>
+			<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+			<a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+		</div>
+		<div>
+			<p>Copyright &copy; 2023, Juhon Kahvila Oy</p>
+		</div>
+		<div>
+			<p><a href="mailto:info@ticocafe.fi">info@ticocafe.fi</a></p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
